@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "nimbleviz-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "3D product animation",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -15,10 +15,24 @@
   },
   "dependencies": {
     "gatsby": "^2.21.35",
+    "gatsby-plugin-styled-components": "^3.3.1",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-typescript": "^2.4.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.1.0"
   },
-  "devDependencies": {
+  "devDependencies": {  
+    "@babel/core": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-gatsby": "^0.2.31",
+    "@types/styled-components": "^5.1.0",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-helmet": "^5.0.15",
+    "typescript": "^3.8.3",
     "prettier": "2.0.5"
   },
   "repository": {
